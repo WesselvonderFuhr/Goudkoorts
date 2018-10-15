@@ -12,9 +12,10 @@ namespace ConsoleApp3
         Track TrackTwo { get; set; }
 
 
-        public SwitchTrack(char value)
+        public SwitchTrack(char value, Square square)
         {
             ObjectType = value;
+            Square = square;
         }
 
         public void switchTrack()
