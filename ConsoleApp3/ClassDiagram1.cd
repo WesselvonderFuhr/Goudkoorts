@@ -71,7 +71,7 @@
   <Class Name="ConsoleApp3.SwitchTrack" Collapsed="true">
     <Position X="6.5" Y="7" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAMAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Wissel.cs</FileName>
     </TypeIdentifier>
   </Class>
@@ -81,16 +81,6 @@
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Cart.cs</FileName>
     </TypeIdentifier>
-  </Class>
-  <Class Name="ConsoleApp3.Square" Collapsed="true">
-    <Position X="2.75" Y="4" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAACEAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Square.cs</FileName>
-    </TypeIdentifier>
-    <ShowAsAssociation>
-      <Field Name="fieldObject" />
-    </ShowAsAssociation>
   </Class>
   <Class Name="ConsoleApp3.Water" Collapsed="true">
     <Position X="0.5" Y="6" Width="1.5" />
@@ -126,6 +116,16 @@
       <HashCode>AIAQAAAAAAAAAAACgAAAAAgAAAAAgAAAAAAQAAAAAAA=</HashCode>
       <FileName>FieldData.cs</FileName>
     </TypeIdentifier>
+  </Class>
+  <Class Name="ConsoleApp3.Square" Collapsed="true">
+    <Position X="2.75" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAACEAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Square.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="fieldObject" />
+    </ShowAsAssociation>
   </Class>
   <Font Name="Segoe UI" Size="9" />
 </ClassDiagram>

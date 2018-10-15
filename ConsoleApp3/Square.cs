@@ -10,7 +10,7 @@ namespace ConsoleApp3
     {
         public FieldObject fieldObject;
 
-        public Square(char value)
+        public Square()
         {
 
         }
@@ -20,30 +20,24 @@ namespace ConsoleApp3
             switch (value)
             {
 
-                case '_':
-                    FieldObject = new StandardTrack('_');
+                case 's':
+                    fieldObject = new StandardTrack('s');
                     break;
-                case '@':
-                    GameObject = new Player('@', this);
+                case 'l':
+                    fieldObject = new Shed('l');
                     break;
 
                 case 'o':
-                    GameObject = new Chest('o', this);
+                    fieldObject = new Water('w');
                     break;
 
-                case 'x':
-                    isDesitination = true;
+                case 'v':
+                    fieldObject = new SwitchTrack('v');
                     break;
 
-                case '.':
-                    IsFloor = true;
+                case 'c':
+                    fieldObject = new CollectionTrack('c');
                     break;
-
-                default:
-                    IsVoid = true;
-                    break;
-
-
             }
         }
     }

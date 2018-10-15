@@ -8,10 +8,19 @@ namespace ConsoleApp3
 {
     class SwitchTrack : Track
     {
+        Track TrackOne { get; set; }
+        Track TrackTwo { get; set; }
+
 
         public SwitchTrack(char value)
         {
             ObjectType = value;
+        }
+
+        public void switchTrack()
+        {
+            //deze methode veranderd de next van 1 van de 2 options
+            //of veranderd de next van de switch track
         }
     }
 }
