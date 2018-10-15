@@ -6,10 +6,10 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp3
 {
+    
     class Shed : FieldObject
     {
-
-        public Shed(char value)
+        public Shed(char value, Square square)
         {
             ObjectType = value;
         }

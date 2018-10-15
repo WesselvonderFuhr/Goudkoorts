@@ -8,10 +8,10 @@ namespace ConsoleApp3
 {
     class StandardTrack: Track
     {
-
-        public StandardTrack(char value)
+        public StandardTrack(char value, Square square)
         {
             ObjectType = value;
+            Square = square;
         }
     }
 }

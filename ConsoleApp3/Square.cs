@@ -9,6 +9,10 @@ namespace ConsoleApp3
     class Square
     {
         public FieldObject fieldObject;
+        public Square North {get; set;}
+        public Square South {get; set;}
+        public Square West {get; set;}
+        public Square East {get; set;}
 
         public Square()
         {
@@ -21,10 +25,10 @@ namespace ConsoleApp3
             {
 
                 case 's':
-                    fieldObject = new StandardTrack('s');
+                    fieldObject = new StandardTrack('s', this);
                     break;
                 case 'l':
-                    fieldObject = new Shed('l');
+                    fieldObject = new Shed ( 'l', this );
                     break;
 
                 case 'o':
@@ -32,11 +36,11 @@ namespace ConsoleApp3
                     break;
 
                 case 'v':
-                    fieldObject = new SwitchTrack('v');
+                    fieldObject = new SwitchTrack('v', this);
                     break;
 
                 case 'c':
-                    fieldObject = new CollectionTrack('c');
+                    fieldObject = new CollectionTrack('c', this);
                     break;
             }
         }

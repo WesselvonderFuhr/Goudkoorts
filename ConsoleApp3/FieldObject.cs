@@ -8,6 +8,8 @@ namespace ConsoleApp3
 {
     class FieldObject
     {
+
+        public Square Square { get; set; } 
         public Char ObjectType{get; set;} 
 
         public FieldObject()
