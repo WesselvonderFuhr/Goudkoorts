@@ -1,2 +1,11 @@
 
 *.lock
+*.ide-shm
+ConsoleApp3/obj/Debug/GoudKoorts.csproj.FileListAbsolute.txt
+ConsoleApp3/obj/Debug/ConsoleApp3.pdb
+ConsoleApp3/obj/Debug/ConsoleApp3.exe
+ConsoleApp3/bin/Debug/ConsoleApp3.pdb
+ConsoleApp3/bin/Debug/ConsoleApp3.exe.config
+ConsoleApp3/bin/Debug/ConsoleApp3.exe
+.vs/ConsoleApp3/v15/Server/sqlite3/storage.ide-shm
+.vs/ConsoleApp3/v15/.suo
