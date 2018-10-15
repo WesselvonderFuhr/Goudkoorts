@@ -1,0 +1,6 @@
+C:\Users\wessel\Documents\GitHub2\Goudkoorts\ConsoleApp3\bin\Debug\ConsoleApp3.exe.config
+C:\Users\wessel\Documents\GitHub2\Goudkoorts\ConsoleApp3\bin\Debug\ConsoleApp3.exe
+C:\Users\wessel\Documents\GitHub2\Goudkoorts\ConsoleApp3\bin\Debug\ConsoleApp3.pdb
+C:\Users\wessel\Documents\GitHub2\Goudkoorts\ConsoleApp3\obj\Debug\GoudKoorts.csproj.CoreCompileInputs.cache
+C:\Users\wessel\Documents\GitHub2\Goudkoorts\ConsoleApp3\obj\Debug\ConsoleApp3.exe
+C:\Users\wessel\Documents\GitHub2\Goudkoorts\ConsoleApp3\obj\Debug\ConsoleApp3.pdb

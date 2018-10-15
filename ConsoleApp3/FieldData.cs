@@ -8,6 +8,6 @@ namespace ConsoleApp3
 {
     class FieldData
     {
-        //yeet
+        
     }
 }

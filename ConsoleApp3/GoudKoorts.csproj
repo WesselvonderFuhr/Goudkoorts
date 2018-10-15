@@ -44,7 +44,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Cart.cs" />
+    <Compile Include="Dock.cs" />
+    <Compile Include="FieldData.cs" />
+    <Compile Include="FieldObject.cs" />
     <Compile Include="Game.cs" />
+    <Compile Include="GameObject.cs" />
     <Compile Include="InputView.cs" />
     <Compile Include="OutputView.cs" />
     <Compile Include="PlayField.cs" />
@@ -53,11 +57,15 @@
     <Compile Include="Rangeerterrein.cs" />
     <Compile Include="Shed.cs" />
     <Compile Include="Ship.cs" />
+    <Compile Include="Square.cs" />
+    <Compile Include="StandardTrack.cs" />
     <Compile Include="Track.cs" />
+    <Compile Include="Water.cs" />
     <Compile Include="Wissel.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="ClassDiagram1.cd" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
