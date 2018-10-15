@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp3
 {
-    class Rangeerterrein : Track
+    class CollectionTrack : Track
     {
     }
 }

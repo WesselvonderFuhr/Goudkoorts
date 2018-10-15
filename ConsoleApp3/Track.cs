@@ -6,8 +6,9 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp3
 {
-    class Track
+    abstract class Track : FieldObject
     {
-        public Cart _Cart { get; set; }
+        public GameObject gameObject { get; set; }
+        public Track Next { get; set; }
     }
 }

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp3
 {
-    class Wissel : Track
+    class SwitchTrack : Track
     {
     }
 }

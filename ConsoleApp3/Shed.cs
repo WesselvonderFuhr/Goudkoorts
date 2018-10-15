@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp3
 {
-    class Shed
+    class Shed : FieldObject
     {
     }
 }

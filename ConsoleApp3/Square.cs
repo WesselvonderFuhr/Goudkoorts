@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp3
 {
-    class Cart : GameObject
+    class Square
     {
+        public FieldObject fieldObject;
     }
 }

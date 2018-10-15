@@ -8,7 +8,9 @@ namespace ConsoleApp3
 {
     class Game
     {
-        private InputView input;
-        private OutputView output;
+        private InputView input   { get; set; }
+        private OutputView output { get; set; }
+        private PlayField playField { get; set; }
+        private FieldData fieldData { get; set; }
     }
 }

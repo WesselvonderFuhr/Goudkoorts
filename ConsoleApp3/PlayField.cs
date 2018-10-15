@@ -8,7 +8,12 @@ namespace ConsoleApp3
 {
     class PlayField
     {
-        public Track First { get; set; }
+        Square[,] field;
+
+        PlayField(FieldData fieldData)
+        {
+
+        }
 
     }
 }
