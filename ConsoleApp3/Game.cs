@@ -12,5 +12,10 @@ namespace ConsoleApp3
         private OutputView output { get; set; }
         private PlayField playField { get; set; }
         private FieldData fieldData { get; set; }
+
+        public void start()
+        {
+            output.showTutuorial();
+        }
     }
 }
