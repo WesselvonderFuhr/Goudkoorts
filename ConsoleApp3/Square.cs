@@ -9,5 +9,10 @@ namespace ConsoleApp3
     class Square
     {
         public FieldObject fieldObject;
+
+        public Square(char value)
+        {
+
+        }
     }
 }
