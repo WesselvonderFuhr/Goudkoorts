@@ -8,5 +8,9 @@ namespace ConsoleApp3
 {
     class CollectionTrack : Track
     {
+        public CollectionTrack(char value)
+        {
+            ObjectType = value;
+        }
     }
 }

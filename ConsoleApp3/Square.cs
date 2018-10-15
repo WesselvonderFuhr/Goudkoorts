@@ -14,5 +14,37 @@ namespace ConsoleApp3
         {
 
         }
+
+        private void setContent(char value)
+        {
+            switch (value)
+            {
+
+                case '_':
+                    FieldObject = new StandardTrack('_');
+                    break;
+                case '@':
+                    GameObject = new Player('@', this);
+                    break;
+
+                case 'o':
+                    GameObject = new Chest('o', this);
+                    break;
+
+                case 'x':
+                    isDesitination = true;
+                    break;
+
+                case '.':
+                    IsFloor = true;
+                    break;
+
+                default:
+                    IsVoid = true;
+                    break;
+
+
+            }
+        }
     }
 }

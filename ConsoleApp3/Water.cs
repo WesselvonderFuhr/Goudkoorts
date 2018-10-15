@@ -8,5 +8,9 @@ namespace ConsoleApp3
 {
     class Water : FieldObject
     {
+        public Water(char value)
+        {
+            ObjectType = value;
+        }
     }
 }

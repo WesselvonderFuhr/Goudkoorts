@@ -8,5 +8,10 @@ namespace ConsoleApp3
 {
     class Shed : FieldObject
     {
+
+        public Shed(char value)
+        {
+            ObjectType = value;
+        }
     }
 }

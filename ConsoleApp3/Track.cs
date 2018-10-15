@@ -10,5 +10,7 @@ namespace ConsoleApp3
     {
         public GameObject gameObject { get; set; }
         public Track Next { get; set; }
+
+
     }
 }

@@ -8,5 +8,10 @@ namespace ConsoleApp3
 {
     class SwitchTrack : Track
     {
+
+        public SwitchTrack(char value)
+        {
+            ObjectType = value;
+        }
     }
 }
